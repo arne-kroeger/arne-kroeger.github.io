@@ -21,9 +21,8 @@
 title: DevSpot Blog
 email: arne.kroeger[a.t.]googlemail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My blog about all dev and tech relevant topics that crosses my mind. 
+  Mostly in Java Spring and DevOps related areas of the tech world.
 breadcrumbs: true
 twitter_username: ArneKroeger
 github_username:  arne-kroeger
