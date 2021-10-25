@@ -1,0 +1,13 @@
+fischnik:
+  name        : "Niklas Fischer"
+  bio         : "Exploring the world in code."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arne.kreoger@googlemail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/arne-kroeger/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ArneKroeger"
