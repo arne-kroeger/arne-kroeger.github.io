@@ -68,7 +68,7 @@ Consent of the data subject is any freely given, specific, informed and unambigu
 ## 2. Name and Address of the controller
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
-{{site.title}} \
+{{site.author.name}} \
 Raboldesburg 19 \
 23701 Eutin 
 

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Arne Krögers Blog
+title: DevSpot Blog
 email: arne.kroeger[a.t.]googlemail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -89,9 +89,6 @@ author:
   bio         : "Exploring the world in code."
   avatar      : "/assets/images/kroegarn.png"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arne.kroeger[a.t.]googlemail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/arne-kroeger/"

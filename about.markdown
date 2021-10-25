@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-I'm a passionate software developer who has his roots in system integration / administrations. I love to support in all kinds of processes and developments.
+I'm a passionate software developer who has his roots in system integration / administration. I love to support in all kinds of processes and developments.
 
 DevOp topics like automation were always part of my way to go. 
 
