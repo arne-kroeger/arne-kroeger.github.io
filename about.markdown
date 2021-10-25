@@ -2,17 +2,11 @@
 layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a passionate software developer who has his roots in system integration / administrations. I love to support in all kinds of processes and developments.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+DevOp topics like automation were always part of my way to go. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My goal is to reflect myself and my learning curve and maybe support others facing the same or similar problems / situations.
