@@ -40,11 +40,13 @@ tag_archive:
   path: /tags/
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 search: true
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -79,7 +81,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arne.kreoger@googlemail.com"
+      url: "mailto:arne.kroeger[a.t.]]googlemail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/arne-kroeger/"
