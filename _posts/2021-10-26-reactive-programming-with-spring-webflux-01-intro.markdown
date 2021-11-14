@@ -1,15 +1,15 @@
 ---
 layout: single
-title:  "Spring GraphQL server based on webflux - Part 1 - Intro"
-date:   2021-10-26 19:13:49 +0200
-categories: java spring
+title: 'Spring GraphQL server based on webflux - Part 1 - Intro'
+date: 2021-10-26 19:13:49 +0200
+categories: java spring SpringWebfluxGraphQLTutorial
 comments: true
 tags: java spring webflux graphql reactive
 ---
 
 ## Reactive programming
 
-Reactive programming is a programming paradigm and has several implementation especially in the frontend world (e.g. [VueJS](https://vuejs.org/){:rel="nofollow"}, [Angular](https://angular.io/){:rel="nofollow"}, [React](https://reactjs.org/){:rel="nofollow"}). In the backend technologies it is not so widely used but could help for complex systems with huge amounts of parallel requests or many sources data changes.
+Reactive programming is a programming paradigm and has several implementation especially in the frontend world (e.g. [VueJS](https://vuejs.org/){:rel="nofollow"}, [Angular](https://angular.io/){:rel="nofollow"}, [React](https://reactjs.org/){:rel="nofollow"}). In the backend technologies it is not so widely used but could help for complex systems with huge amounts of parallel requests or many source data changes.
 
 For more details on reactive programming see:
 
@@ -22,17 +22,17 @@ It is not useful in all use-case and could possible add more complexity to your 
 - [Reactive Programming: Why, What and When? by Mohit Snehal](https://blog.devgenius.io/reactive-programming-why-what-and-when-e00495cda9c4){:rel="nofollow"}
 - [Java Reactive Programming - Effective Usage in a Real World Application by Stefan Nothaas](https://tech.trivago.com/2021/03/16/java-reactive-programming-effective-usage-in-a-real-world-application/){:rel="nofollow"}
 
-For me it has been a nice to know use-case and was necessary to evaluate it as an option for future developments. 
+For me it has been a nice to know use-case and was necessary to evaluate it as an option for future developments.
 
 ### Spring implementation
 
-Spring added a webflux component to implement a reactive alternative to Spring MVC (based on the [Reactor project](https://projectreactor.io/){:rel="nofollow"}). 
+Spring added a webflux component to implement a reactive alternative to Spring MVC (based on the [Reactor project](https://projectreactor.io/){:rel="nofollow"}).
 
 For more details see [Spring reactive project page](https://spring.io/reactive){:rel="nofollow"}.
 
 ## Graphql
 
-I'm using Spring most of the time as my services backend and I've used [OpenAPI](https://www.openapis.org/){:rel="nofollow"} based REST services several times and started some projects with a GraphQL. As Spring started the GraphQL server project based on webflux I want to show this sample implementation to deliver a starting point.
+I'm using Spring most of the time as my services backend and I've used [OpenAPI](https://www.openapis.org/){:rel="nofollow"} based REST services several times and started some projects with GraphQL as the query language. As Spring started the GraphQL server project based on webflux I want to show this sample implementation to deliver a starting point.
 
 For more general purpose and pros / cons of GraphQL see the following links:
 
@@ -44,11 +44,11 @@ For more general purpose and pros / cons of GraphQL see the following links:
 
 > The sample project created in this description bases on the code examples provided by Josh Long in his video [Spring Tips: Spring GraphQL](https://www.youtube.com/watch?v=kVSYVhmvNCI&ab_channel=SpringDeveloper){:rel="nofollow"}
 
-We want to build a simple GraphQL service which is providing company and person data via a GraphQL service build on top of a Spring GraphQL webflux backend. For this example project I use a classical RDBMS system (PostgreSQL) as it is used in many of my projects as a really reliable, scalable and extendible data source with a huge amount of features / possibilities. 
+We want to build a simple GraphQL service which is providing company and person data via a GraphQL service build on top of a Spring GraphQL webflux backend. For this example project I use a classical RDBMS system (PostgreSQL) as it is used in many of my projects as a really reliable, scalable and extendible data source with a huge amount of features / possibilities.
 
 ### The problem with the JDBC driver in the reactive world
 
-The JDBC driver is a problem in terms of a reactive project because of its IO blocking implementation. The driver will block all further processing unless all data has been fetched from the datasource. This problem can be covered with the R2DBC (Reactive Relational Database Connectivity) driver which allows a reactive connection handling with classical RDBMS like PostgreSQL, MySQL, MariaDB, MS SQL Server, Oracle and H2. 
+The JDBC driver is a problem in terms of a reactive project because of its IO blocking implementation. The driver will block all further processing unless all data has been fetched from the datasource. This problem can be covered with the enormous implementation of the R2DBC (Reactive Relational Database Connectivity) driver which allows a reactive connection handling with classical RDBMS like PostgreSQL, MySQL, MariaDB, MS SQL Server, Oracle and H2.
 
 For more details see:
 
@@ -56,7 +56,7 @@ For more details see:
 - [R2DBC vs. JDBC Performance comparison by Maarten Smeets](https://technology.amis.nl/software-development/performance-and-tuning/performance-of-relational-database-drivers-r2dbc-vs-jdbc/){:rel="nofollow"}
 - [Spring: Blocking vs non-blocking: R2DBC vs JDBC and WebFlux vs Web MVCby Maarten Smeets](https://technology.amis.nl/software-development/performance-and-tuning/spring-blocking-vs-non-blocking-r2dbc-vs-jdbc-and-webflux-vs-web-mvc/){:rel="nofollow"}
 
-### Summary 
+### Summary
 
 So the tech stack for this sample project will be:
 
@@ -64,8 +64,8 @@ So the tech stack for this sample project will be:
 - Spring GraphQL
 - Spring WebFlux
 - R2DBC
-- PostgreSQL 
+- PostgreSQL
 
 As this project will grow we will add some new items to this list from chapter to chapter to cover more things that will cross my mind.
 
-In Part 2 we will setup the project to make our first GraphQL requests to the database.
+In [Part 2]({% post_url 2021-11-14-reactive-programming-with-spring-webflux-02-getting-started %}) we will setup the project to make our first GraphQL requests to the database.

@@ -42,7 +42,7 @@ tag_archive:
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 search: true
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
