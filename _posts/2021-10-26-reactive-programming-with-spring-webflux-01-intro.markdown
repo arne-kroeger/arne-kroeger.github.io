@@ -2,7 +2,7 @@
 layout: single
 title: 'Spring GraphQL server based on webflux - Part 1 - Intro'
 date: 2021-10-26 19:13:49 +0200
-categories: java spring SpringWebfluxGraphQLTutorial
+categories: Spring-Webflux-GraphQL-Tutorial
 comments: true
 tags: java spring webflux graphql reactive
 ---
